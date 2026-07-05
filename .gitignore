@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Foundry runtime/cache artifacts
+foundrydata/
+Data/
+*.log
+
+# Local package exports
+*.zip
+*.bak
+*.tmp
