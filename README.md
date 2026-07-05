@@ -5,26 +5,30 @@ Sanctoria is the working repository for the Sanctoria / Elarion campaign materia
 ## Repository structure
 
 ```text
-foundry/
-  sanctoria-automation/      Foundry VTT local module used for custom item/NPC automation
+module.json                    Foundry VTT module manifest
+scripts/                       Foundry VTT automation scripts
+  debt-collectors.js           Debt Collectors item automation
+  warrenSkinCloak.js           Warren-Skin Cloak item automation
 
 docs/
-  campaign-notes/            Campaign planning notes and adventure documentation
-  magic-items/               Magic item writeups and design notes
-  npcs/                      NPC guide material and stat/role notes
+  campaign-notes/              Campaign planning notes and adventure documentation
+  magic-items/                 Magic item writeups and design notes
+  npcs/                        NPC guide material and stat/role notes
 
-releases/                    Release notes and packaged module references
+releases/                      Release notes and packaged module references
 ```
 
 ## Foundry module
 
-The current module lives at:
+This repository is intended to function as the **Sanctoria Automation** Foundry module root.
+
+To install manually, copy or clone this repository folder into your Foundry `Data/modules/` directory so the path becomes:
 
 ```text
-foundry/sanctoria-automation/
+Data/modules/Sanctoria/module.json
 ```
 
-To install manually, copy that folder into your Foundry `Data/modules/` directory so the path becomes:
+or rename the folder to:
 
 ```text
 Data/modules/sanctoria-automation/module.json
