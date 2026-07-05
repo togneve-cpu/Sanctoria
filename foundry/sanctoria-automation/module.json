@@ -1,0 +1,19 @@
+{
+  "id": "sanctoria-automation",
+  "title": "Sanctoria Automation",
+  "description": "Automation helpers for Sanctoria campaign items and NPC features.",
+  "version": "0.7.0",
+  "authors": [
+    {
+      "name": "Jerry Crawford"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/debt-collectors.js",
+    "scripts/warrenSkinCloak.js"
+  ]
+}
